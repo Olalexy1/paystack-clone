@@ -4,6 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import facebook from '../../images/facebook.svg'
+import twitter from '../../images/twitter.svg'
+import instagram from '../../images/instagram.svg'
+import linkedIn from '../../images/linkedIn.svg'
+import youtube from '../../images/youtube.svg'
+
 import './style.scss'
 
 const Footer = () => {
@@ -65,6 +71,17 @@ const Footer = () => {
                 <Col sm={3}>
                     <h2>Contact</h2>
                     <a href="mailto:hello@paystack.com" target="_blank" className="">hello@paystack.com</a>
+                    <div className='icon-container'>
+                        <a href=""> <img src={facebook} width="17px" alt="Facebook" /></a>
+
+                        <a href=""> <img src={twitter} width="17px" alt="Facebook" /></a>
+
+                        <a href=""> <img src={instagram} width="17px" alt="Facebook" /></a>
+
+                        <a href=""> <img src={linkedIn} width="17px" alt="Facebook" /></a>
+
+                        <a href=""> <img src={youtube} width="17px" alt="Facebook" /></a>
+                    </div>
                 </Col>
                 <Col sm={3}>
                     <h2>Lagos</h2>
@@ -90,6 +107,13 @@ const Footer = () => {
                             South San Francisco,<br/>
                             CA 94080<br/>
                             United State<br/>
+                        </p>
+                    <h2>Dubai</h2>
+                        <p>
+                            Office 215, <br/>
+                            Building 3, <br/>
+                            Dubai Internet City, Dubai, <br/>
+                            United Arab Emirates <br/>
                         </p>
                 </Col>
                 <Col sm={3}>

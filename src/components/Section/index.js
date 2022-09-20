@@ -4,8 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import collection from '../../images/Collect-Payments-for-Multiple-Channels-1.1.gif'
 import RobustSuite from '../../images/Robust-Suite-of-APIs-Opt.png'
 import FraudProtection from '../../images/Advanced-Fraud-Protection.mp4'
@@ -66,8 +64,8 @@ const Section = () => {
 
                     <Row>
                         <Col lg={12}>
-                        <a href="#" className="link-green">
-                            <div className="caret-circle">
+                        <a href="#">
+                            <div>
                                 <FaAngleRight className='icon'/>
                             </div>
                             Find out how we achieve high success rates
@@ -90,8 +88,8 @@ const Section = () => {
                         <li> <span> <img src={Check} width='20px' alt="check" /> </span> Verify the identity of customers </li> 
                     </ul>
                     
-                    <a href="#" className="link-green">
-                        <div className="caret-circle">
+                    <a href="#">
+                        <div>
                             <FaAngleRight className='icon'/>
                         </div>
                         Paystack API Quickstart

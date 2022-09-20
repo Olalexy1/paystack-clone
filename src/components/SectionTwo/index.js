@@ -3,6 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 import collection from '../../images/Collect-Payments-for-Multiple-Channels-1.1.gif'
 import Abia from '../../images/Abia-State-University.svg'
@@ -70,20 +71,27 @@ const SectionTwo = () => {
 
 const  SectionThree= () => {
     return ( 
-        <Container fluid className='try-container'>
-            <Row>
-                <Col sm={12}>
-                <div className="try-left" data-aos="fade-right" data-aos-delay="300">
-                    <p>Try Paystack Now</p>
-                    <h1>Start accepting payments in just 30 minutes</h1>
-                </div>
-                <div className="try-right" data-aos="fade-left" data-aos-delay="400">
-                    <a href="#" className="btn-lg lgr">
-                    Create free account
-                    </a>
-                </div>
-                </Col>
-            </Row>
+        <Container fluid className='try-container my-5'>
+            <Container>
+                <Row>
+                    <Col lg={12}>
+                        <Row className='try-inner-container'>
+                            <Col lg={6}>
+                                <div className="try-left">
+                                    <p>Try Paystack Now</p>
+                                    <h1>Start accepting payments in <br/> just 30 minutes</h1>
+                                </div>
+                            </Col>
+                            <Col lg={6}>
+                                <div className="try-right">
+                                    <Button className='btn2'>Create a free account</Button>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+            
         </Container>
      );
 }

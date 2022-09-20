@@ -22,7 +22,7 @@ function NavigationBar() {
               width="123"
               height="22"
               className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              alt="Paystack logo"
             />
         </Navbar.Brand>
 

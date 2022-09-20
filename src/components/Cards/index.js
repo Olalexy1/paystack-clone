@@ -117,16 +117,16 @@ const SponsorCards = () => {
                         <p>Paystack is backed by notable investors as well as some of the best <br/> payments companies on the planet.</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='mt-5'>
                     <Col lg={4}>
                         <div className='sponsor-cards'>
                             <img src={Stripe} width="70px" alt="stripe" />
-                            <p>
+                            <p className='sponsor-quote'>
                                 Paystack is highly technical and fanatically customer oriented. We’re excited to back such people in one of the world’s fastest-growing regions.
                             </p>
                             <div className="person">
                                 <div className="person-image patrick">
-                                    {/* <img src={Patrick}  width="50px" alt="stripe" /> */}
+                                    <img src={Patrick}  width="50px" alt="stripe" />
                                 </div>
                                 <div className="person-text">
                                 <h6>Patrick Collison</h6>
@@ -139,7 +139,7 @@ const SponsorCards = () => {
                     <Col lg={4}>
                         <div className='sponsor-cards'>
                             <img src={Visa} width="70px" alt="visa" />
-                            <p>
+                            <p className='sponsor-quote'>
                                 Our investment in Paystack aligns with the kind of investments we look for - those that will help extend our reach into the global commerce ecosystem
                             </p>
                             <div className="person">
@@ -157,7 +157,7 @@ const SponsorCards = () => {
                     <Col lg={4}>
                         <div className='sponsor-cards'>
                             <img src={ycombinator} width="30px" height='30px' alt="Y combinator" />
-                            <p>
+                            <p className='sponsor-quote'>
                                 As YC's first Nigerian startup Paystack leads the charge of great companies coming out of Africa, powering modern payments for an entire continent.
                             </p>
                             <div className="person">
