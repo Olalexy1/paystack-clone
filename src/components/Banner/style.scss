@@ -1,0 +1,138 @@
+$color1: #011b33;
+$color2: #0ba4db;
+$color3: #3bb75e;
+$color4: #f1fef4;
+
+
+@mixin flexbox ($direction, $justify, $alignment) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $alignment;
+}
+
+
+.banner-container {
+    background: $color4 url("../../images/map.svg") no-repeat 450px -100px;
+    min-height: 700px;
+    position: relative;
+    margin-right: 0px;
+    @include flexbox(column,'','');
+
+    .intro-container {
+        margin-top: 185px !important;
+    }
+
+    .intro-inner-container {
+        padding-top: 80 !important;
+        padding-bottom: 80px;
+        position: relative;
+        text-align: start;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color3;
+        font-size: large;
+        font-weight: 550;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        padding-block: 10px;
+        font-weight: 600;
+    }
+
+    .btn2 {
+        font-size: large;
+        padding: 15px 35px;
+        font-weight: 600;
+        margin-left: 0px;
+        border: transparent;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .intro-bottom-inner-container-one {
+        @include flexbox(column,'','');
+        align-items: flex-start;
+    };
+
+    .logo-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    };
+
+    .intro-bottom-inner-container-two {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+
+        .text-container {
+            align-items: center;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            background-color: #0ba4db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-btn:hover {
+            width: 37px;
+            height: 37px;
+            border-radius: 100%;
+            background-color: #0ba4db;
+            transition: all 0.25s cubic-bezier(0.17, 0.635, 0.54, 1.435);
+        }
+
+        .icon {  
+            color: white;
+            font-size: 12px
+        }
+    };
+
+    .trusted-text {
+        font-size: 18px;
+        font-weight: 600;
+    };
+
+    #domino {
+        width: 120px;
+    };
+
+    #mtn {
+        width: 60px;
+    };
+
+    #bolt {
+        width: 70px;
+    };
+
+    #axa {
+        width: 150px;
+    };
+}
+
+

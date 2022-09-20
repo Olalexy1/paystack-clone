@@ -1,0 +1,35 @@
+.try-container {
+    height: 350px;
+    position: relative;
+}
+
+.try-container::before {
+    background: url("../../images/curved-pattern.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    opacity: 0.2;
+}
+
+.growth-container {
+    padding-block: 120px;
+}
+
+.growth-content {
+    text-align: left;
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    p {
+        padding-top: 10px;
+        font-size: 23px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,15 @@
+$color1: #011b33;
+$color2: #0ba4db;
+$color3: #3bb75e;
+$color4: #f1fef4;
+
+
+@mixin flexbox ($direction, $justify, $alignment) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $alignment;
+}
+
+
+
