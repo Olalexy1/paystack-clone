@@ -38,7 +38,7 @@ const SectionTwo = () => {
                     <p>Paystack is a growth engine for a new generation of innovative, <br/> forward-looking organizations operating in Africa.</p>
                 </Col>
             </Row>
-            <Row className='my-5'>
+            <Row className='mb-5'>
                 <Col className="mb-2" lg={2}><img src={Airpeace} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={Filmhouse} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={Piggyvest} width="120px" alt="Payment Collection" /></Col>
@@ -47,7 +47,7 @@ const SectionTwo = () => {
                 <Col className="mb-2" lg={2}><img src={Ariiya} width="120px" alt="Payment Collection" /></Col>
             </Row>
 
-            <Row className='my-5'>
+            <Row className='mb-5'>
                 <Col className="mb-2" lg={2}><img src={Dominos} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={MTN} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={Lagos} width="120px" alt="Payment Collection" /></Col>
@@ -56,7 +56,7 @@ const SectionTwo = () => {
                 <Col className="mb-2" lg={2}><img src={Carbon} width="120px" alt="Payment Collection" /></Col>
             </Row>
 
-            <Row className='my-5'>
+            <Row className='mb-5'>
                 <Col className="mb-2" lg={2}><img src={Axamansard} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={Abia} width="120px" alt="Payment Collection" /></Col>
                 <Col className="mb-2" lg={2}><img src={GIGM} width="120px" alt="Payment Collection" /></Col>
@@ -84,7 +84,7 @@ const  SectionThree= () => {
                             </Col>
                             <Col lg={6}>
                                 <div className="try-right">
-                                    <Button className='btn2'>Create a free account</Button>
+                                    <Button className='btn2' href="/signup">Create a free account</Button>
                                 </div>
                             </Col>
                         </Row>

@@ -1,0 +1,147 @@
+$color1: #011b33;
+$color2: #0ba4db;
+$color3: #3bb75e;
+$color4: #f1fef4;
+
+.signup-container {
+    background-color: #0d2a45;
+    min-height: 100vh;
+
+    .title {
+        color: #b7b7b3;
+        font-size: 18px;
+        text-align: center !important;
+    }
+
+    label {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .other-countries {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.country-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 6px 0px;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.input {
+    background-color: #e8f0fe !important;
+}
+
+.btn-sign {
+    font-size: large !important;
+    height: 50px;
+    font-weight: 600 !important;
+    border: transparent;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.sign-up-container{
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    span {
+        color: #ced3d7;
+        padding-right: 3px;
+    }
+}
+
+.support-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.support {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    background-color: #1a3d5d;
+    box-shadow: 0 5px 6px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #ced3d7;
+        font-weight: 500; 
+    }
+
+    a:hover {
+        color: #ffffff;
+    }
+}
+
+.check-div {
+    display: flex;
+    flex-direction: row;
+
+    span {
+        padding-left: 5px;
+    }
+}
+
+.check-div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    span {
+        padding-left: 5px;
+    }
+}
+
+.icon-check {
+    background-color: $color3;
+    border: 2px solid $color3;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 4px;
+}
+
+.tel {
+    margin-top: 8px;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+}

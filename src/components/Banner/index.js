@@ -17,7 +17,7 @@ import { FaPlay } from 'react-icons/fa';
 function Banner() {
   return (
     <Container fluid className='banner-container px-0'>
-        <Container className="intro-container px-0">
+        <Container className="intro-container px-3">
             <Row className="justify-content-lg-start">
                 <Col lg={7}>
                     <div className="intro-inner-container animate__animated animate__backInLeft">
@@ -26,8 +26,16 @@ function Banner() {
                             Paystack helps businesses in Africa get paid by anyone, <br/> anywhere in the world
                         </p>
 
-                        <Button className='btn2'>Create a free account</Button>
-                        <a href="#">or Contact Sales</a>
+                        <Row>
+                            <Col lg={6}>
+                                <Button className='btn2' href="/signup">Create a free account</Button>
+                            </Col>
+
+                            <Col lg={6}>
+                                <a href="#">or Contact Sales</a>
+                            </Col>
+                        </Row>
+                          
                     </div>
                 </Col>
             </Row>
@@ -43,19 +51,20 @@ function Banner() {
                     </div>
                 </Col>
                 <Col lg={6}>
-                    <Row className="intro-bottom-inner-container-two">
-                        <Col lg={11} className="text-container">
-                            <p className="trusted-text">
-                                Watch MTN Chief Transformation Officer, Olubayo <br/> Adekanmbi, discuss
-                                working with Paystack
-                            </p>
-                        </Col>
-
-                        <Col lg={1} className="icon-container">
+                    <Row className="intro-bottom-inner-container-two py-3">
+                        <Col lg={12} className="text-container">
+                            <div>
+                                <p className="trusted-text">
+                                    Watch MTN Chief Transformation Officer, Olubayo <br/> Adekanmbi, discuss
+                                    working with Paystack
+                                </p>
+                            </div>
+                            
                             <div className='play-btn'>
                                 <FaPlay className='icon'/>
-                            </div>  
-                        </Col>           
+                            </div> 
+                        </Col>
+           
                     </Row>
                 </Col>
 

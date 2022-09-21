@@ -3,8 +3,9 @@
     min-height: 100vh;
 
     p {
-        color: #d0d0ce;
+        color: #b7b7b3;
         font-size: 18px;
+        text-align: center !important;
     }
 }
 
@@ -19,7 +20,7 @@
     height: 50px !important;
 }
 
-.btn {
+.btn-login {
     font-size: large !important;
     height: 50px;
     font-weight: 600 !important;

@@ -51,10 +51,16 @@ $color4: #f1fef4;
 
     .btn2 {
         font-size: large;
-        padding: 15px 35px;
+        padding: 15px 30px;
         font-weight: 600;
-        margin-left: 0px;
+        margin-right: 5px;
         border: transparent;
+        background-color: $color3 !important;
+        color: #ffffff;
+    }
+
+    .btn2:hover {
+        background-color: #2db152 !important;
     }
 
     .bottom-container {
@@ -70,8 +76,9 @@ $color4: #f1fef4;
 
     .logo-container {
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
         width: 100%;
+        margin-top: -15px
     };
 
     .intro-bottom-inner-container-two {
@@ -81,6 +88,8 @@ $color4: #f1fef4;
 
         .text-container {
             align-items: center;
+            display: flex;
+            flex-direction: row;
         }
 
         .icon-container {
@@ -92,11 +101,12 @@ $color4: #f1fef4;
         .play-btn {
             width: 35px;
             height: 35px;
-            border-radius: 100%;
+            border-radius: 50%;
             background-color: #0ba4db;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 14px;
         }
 
         .play-btn:hover {
@@ -109,13 +119,14 @@ $color4: #f1fef4;
 
         .icon {  
             color: white;
-            font-size: 12px
+            font-size: 0.6rem,
         }
     };
 
     .trusted-text {
         font-size: 18px;
         font-weight: 600;
+        margin-right: 10px;
     };
 
     #domino {
@@ -133,6 +144,81 @@ $color4: #f1fef4;
     #axa {
         width: 150px;
     };
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #axa {
+        display: none;
+    }
+
+    .intro-bottom-inner-container-one {
+        border-bottom: 1px solid grey;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #axa {
+        display: none;
+    }
+
+    .intro-bottom-inner-container-one {
+        padding-bottom: 10px;
+        border-bottom: 1px solid grey;
+    }
+
+    .trusted-text {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+    };
+
+    #domino {
+        width: 83px;
+    };
+
+    #mtn {
+        width: 44px;
+    };
+
+    #bolt {
+        width: 83px;
+    };
+
+    .intro-bottom-inner-container-two {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+
+        .text-container {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-btn {
+            // width: 35px;
+            // height: 35px;
+            // border-radius: 50%;
+            // background-color: #0ba4db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+        .icon {  
+            color: #0ba4db;
+            font-size: 0.6rem;
+        }
+    }
+
 }
 
 

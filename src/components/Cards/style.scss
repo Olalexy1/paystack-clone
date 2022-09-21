@@ -113,6 +113,7 @@ $color5: #eaf6fc;
     right: -100px;
     opacity: 0.2;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .sponsor-cards {
@@ -121,7 +122,7 @@ $color5: #eaf6fc;
     align-items: flex-start;
     text-align: left;
     width: 100%;
-    height: 359px;
+    min-height: 359px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 6px 0px;
     border-radius: 6px;

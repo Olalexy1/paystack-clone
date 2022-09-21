@@ -118,7 +118,7 @@ const SponsorCards = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <Col lg={4}>
+                    <Col className='my-3' lg={4}>
                         <div className='sponsor-cards'>
                             <img src={Stripe} width="70px" alt="stripe" />
                             <p className='sponsor-quote'>
@@ -136,7 +136,7 @@ const SponsorCards = () => {
                         </div>
                         
                     </Col>
-                    <Col lg={4}>
+                    <Col className='my-3' lg={4}>
                         <div className='sponsor-cards'>
                             <img src={Visa} width="70px" alt="visa" />
                             <p className='sponsor-quote'>
@@ -154,7 +154,7 @@ const SponsorCards = () => {
                         </div>
                         
                     </Col>
-                    <Col lg={4}>
+                    <Col className='my-3' lg={4}>
                         <div className='sponsor-cards'>
                             <img src={ycombinator} width="30px" height='30px' alt="Y combinator" />
                             <p className='sponsor-quote'>

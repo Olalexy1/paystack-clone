@@ -14,17 +14,17 @@ import './style.scss'
 
 const Login = () => {
     return ( 
-        <Container fluid className='login-container p-5'>
-            <Row className="justify-content-lg-center">
+        <Container fluid className='login-container py-5'>
+            <Row className="justify-content-lg-center pt-2">
                 <Col lg={12}>
-                <img src={logo} width='' alt="Paystack Logo"/>
+                <img src={logo} width='' className='' alt="Paystack Logo"/>
                 </Col>
                 <Col className='justify-content-center pt-5 pb-3' lg={5}>
                     <div className='form-container px-4 pt-3 pb-5'>
                         <p className='pb-3'>Login</p>
                         <Form.Control className='input mb-3' type="email" placeholder="Email Address" />
                         <Form.Control className='input mb-3' type="password" placeholder="Password" />
-                        <Button className='btn mb-3'>Login to your account</Button>
+                        <Button className='btn-login mb-3'>Login to your account</Button>
                     </div>
                 </Col>
                 <Col lg={12} className='sign-up-container'>
